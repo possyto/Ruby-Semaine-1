@@ -1,4 +1,4 @@
-#{ commentaire  ou operation ds string }
+#{   #{} variable dans chaine de caratere  }
 
 puts "On va compter le nombre d'heures de travail à THP"
 puts "Travail : #{10 * 5 * 11}" #{ caulcul multipplication = 10 fois 5 fois 11}
@@ -10,7 +10,7 @@ puts 10 * 5 * 11 * 60 * 60 #{ caulcul = 10 fois 5 fois 11 fois 60 fois 60}
 
 puts "Est-ce que c'est vrai que 3 + 2 < 5 - 7 ?" #{ affiche string  }
 
-puts 3 + 2 < 5 - 7  #{ additionne puis .. verifie si 5 est inferieur a - 2  renvoie false }
+puts 3 + 2 < 5 - 7  #{ additionne puis .. verifie si 5 est inferieur a - 2  renvoie false booleen }
 
 puts "Ça fait combien 3 + 2 ? #{3 + 2}"  #{ affiche string plus calcul ds "string" }
 puts "Ça fait combien 5 - 7 ? #{5 - 7}" #{ affiche string plus calcul ds "string" }
