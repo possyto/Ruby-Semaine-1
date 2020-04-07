@@ -6,16 +6,18 @@ puts " ton age stp  "
 
 while age > 0
 
-age = age - 1
+    age = age - 1
 
-i = i + 1
+    i = i + 1
 
+    j = age - i 
 
-    
 
 puts " il y a #{age} ans  tu avais #{i} ans "
 
- 
+if 
+
+    puts 
 
  end 
 
