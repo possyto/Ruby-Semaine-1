@@ -2,23 +2,18 @@ puts " ton age stp  "
 
     age = gets.chomp.to_i
 
-    i = 0
+    compteur = 0
+    date = 2020 - age
 
-while age > 0
+date.times do
 
-    age = age - 1
+  if date == compteur
+    puts "il y a #{date} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
+  else
+    puts "il y a #{date} ans, tu avais #{compteur} an(s)"
+  end
 
-    i = i + 1
+  date = date - 1
+  compteur = compteur +1
 
-    j = age - i 
-
-
-puts " il y a #{age} ans  tu avais #{i} ans "
-
-if 
-
-    puts 
-
- end 
-
- 
+end
