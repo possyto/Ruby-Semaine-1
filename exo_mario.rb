@@ -1,6 +1,4 @@
-puts "Donne un nombre entre 1 et 25 !"
-
-nb = gets.chomp.to_i
+nb = 25
 
 i = 0
 
@@ -12,18 +10,20 @@ while nb > 0
 
   i = i + 1
 
-  space = print " " * nb_split
 
-  cross = "#" * i
 
 
   if i%2 == 0
 
   else
 
-    print puts "#{space}#{cross}"
+    nb_split = nb_split - 1
 
     space = print " " * nb_split
+
+    cross = "#" * i
+
+    print puts "#{space}#{cross}"
 
   end
 
