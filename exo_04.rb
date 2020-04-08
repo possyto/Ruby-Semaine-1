@@ -1,15 +1,1 @@
- 
-
- 
- #{manque le }
-
- puts "Salut, ça farte ?  
-
- 
-
-
-
-
-
-
-  
+puts "Salut, ça farte

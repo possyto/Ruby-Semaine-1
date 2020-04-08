@@ -1,8 +1,4 @@
-year_now =  2017
+puts "Quel âge as tu ?"
+user_age=gets.chomp
 
-puts " quelle est ton année de naissance "
-    year_of_birth = gets.chomp.to_i
-
-    age =   year_now - year_of_birth 
-
-  puts "tu as eu  #{age} en 2017 !!" 
+puts "Ton âge en 2017 était de #{user_age - 3}"

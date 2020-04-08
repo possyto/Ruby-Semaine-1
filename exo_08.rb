@@ -1,5 +1,3 @@
-puts "hello , comment t'appelles tu ? "
-
-user = gets.chomp
-
-puts "Bonjour, #{user} ! "
+puts "Quel est ton nom budy ?"
+user_name=gets.chomp
+puts "Salut, #{user_name} !"
